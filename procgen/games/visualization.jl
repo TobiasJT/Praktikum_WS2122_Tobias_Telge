@@ -22,7 +22,7 @@ big_fish.basic_game.game.level_seed_high = typemax(UInt32)
 # Game will use monochromatic rectangles instead of human designed assets. Best used with option restrict_themes set to true.
 #big_fish.basic_game.game.options.use_monochrome_assets = true
 
-# Games will use pure black background
+# Game will use pure black background
 #big_fish.basic_game.game.options.use_backgrounds = false
 
 # Reaching the end of a level does not end the episode, and the seed for the new level is derived from the current level seed
@@ -31,8 +31,8 @@ big_fish.basic_game.game.level_seed_high = typemax(UInt32)
 # Game will be easier
 #big_fish.basic_game.game.options.distribution_mode = EasyMode
 
-# No effect in bigfish
-# Determines whether observations are centered on the agent or display the full level
+# Only affects some procgen games, doesn't affect bigfish
+# Observations will be centered on the agent and not display the full level
 #big_fish.basic_game.game.options.center_agent = true
 
 game_init(big_fish)

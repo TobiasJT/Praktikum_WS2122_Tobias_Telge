@@ -1,0 +1,17 @@
+@enum OBJECT begin
+    INVALID_OBJ = -1
+    INVALID_IDX = -2
+    PLAYER = 0
+    SPACE = 100
+    WALL_OBJ = 51
+    EXIT_OBJ = 52
+    AGENT_OBJ = 53
+    EXPLOSION = 54
+    EXPLOSION2 = 55
+    EXPLOSION3 =56
+    EXPLOSION4= 57
+    EXPLOSION5 = 58
+    TRAIL = 59
+    DOOR_OBJ = 200
+    KEY_OBJ = 300
+end

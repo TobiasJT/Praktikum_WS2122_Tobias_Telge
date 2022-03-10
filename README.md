@@ -28,8 +28,8 @@ Es stehen verschiedene Optionen zur Verfügung, die in der visualization.jl-Date
 * `restrict_themes = true` - Alle Fische außer dem Spieler sehen gleich aus.
 * `use_monochrome_assets = true` - Das Spiel verwendet einfarbige Rechtecke anstatt Bildern.
 * `use_backgrounds = false` - Das Spiel verwendet einen schwarzen Hintergrund.
-* `item \code{use_sequential_levels = true` - Wird das Ende eines Levels erreicht, endet die Episode nicht, sondern ein neues Level wird gestartet.
-* `item \code{distribution_mode = EasyMode` - Der Schwierigkeitsgrad des Spiels wird gesenkt.
+* `use_sequential_levels = true` - Wird das Ende eines Levels erreicht, endet die Episode nicht, sondern ein neues Level wird gestartet.
+* `distribution_mode = EasyMode` - Der Schwierigkeitsgrad des Spiels wird gesenkt.
 
 ## Dokumentation
 

@@ -949,6 +949,7 @@ function draw_image(abstract_basic_game::AbstractBasicAbstractGame, base_rect, r
         end
 
         if rotation == 0
+            # For BigFish alpha is always 1 and rotation is always 0
             tile_image(abstract_basic_game, asset_ptr, adjusted_rect, tile_ratio)
         else
             # Missing Code

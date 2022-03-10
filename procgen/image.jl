@@ -53,6 +53,8 @@ function show(image::Image, rectangle)
     end
     
     placeimage(image.data, Point(0, 0))
+
+    # Reverse previous translation and scaling
     origin(Point(0, 0))
     return nothing
 end
